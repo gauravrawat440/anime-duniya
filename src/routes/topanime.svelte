@@ -31,7 +31,7 @@
 	{#if !loader}
 		<div class="loader-container grid md:grid-cols-4 sm:grid-cols-2">
 			{#each animes as anime}
-				<Card character={anime} />
+				<Card cardDetailObj={anime} />
 			{/each}
 		</div>
 	{:else}
