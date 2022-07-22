@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
-		"start": "vite build",
+		"start": "node build/index.js",
 		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
@@ -42,6 +42,6 @@
 	},
 	"engines": {
 		"node": "16.15.1",
-		"npm": "8.13.0"
+		"npm": "8.1"
 	}
 }
